@@ -1,0 +1,40 @@
+# comment out this entire section to disable this feature
+addCollaborators:
+  # message when adding new collaborators, use ${issueOwner} to refer to the owner by name
+  newCollaboratorMessage: >
+    "Hi @${issueOwner}! I'm the friendly :robot: of the GitHub Training Team.
+
+    We're happy you're here :wave:. Everyone is welcome here, so I'm making you a collaborator. This will give you access to commit on this repo. Continue with the [instructions](https://services.github.com/on-demand/intro-to-github/explore-github-repository).
+
+    If this isn't what you were hoping to get help with, just leave another note in this issue, and a hu-man trainer will drop by within 24 hours to answer your questions!"
+  existingCollaboratorMessage: >
+    "Hi @${issueOwner}! I'm the friendly :robot: of the GitHub Training Team.
+
+    I can see that you're already a collaborator. Any other issues are above my paygrade at the moment, so we'll have to wait for a pesky hu-man trainer. Not to worry though, they'll drop by within 24 hours to answer your questions!"
+
+# comment out this entire section to disable this feature
+deleteBranchReminder:
+  message: >
+    ":wave: ${login}, please remember to delete your branch after merging or closing if you haven't done so already."
+
+# comment out this entire section to disable this feature
+tests:
+  filePath:
+    # the name of the test
+    - title: "File Path"
+
+    # the proper file path
+    - parameter: _pins
+
+    # the success and failure messages for the status
+    - success: "Your file is in the proper path."
+    - failure: "Your file is not in the proper path. It should be in the `_pins` directory."
+
+    # the target for the "details" link
+    - url: https://vimeo.com/201011288
+  extension:
+    - title: "File Extension"
+    - parameter: .yml
+    - success: "Your file has the proper extension."
+    - failure: "Your file needs a .yml extension."
+    - url: https://vimeo.com/201011288
