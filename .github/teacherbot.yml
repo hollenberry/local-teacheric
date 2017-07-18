@@ -2,15 +2,15 @@
 addCollaborators:
   # message when adding new collaborators, use ${issueOwner} to refer to the owner by name
   newCollaboratorMessage: >
-    "Hi @${issueOwner}! I'm the friendly :robot: of the GitHub Training Team.
+    Hi @${issueOwner}! I'm the friendly :robot: of the GitHub Training Team.
 
     We're happy you're here :wave:. Everyone is welcome here, so I'm making you a collaborator. This will give you access to commit on this repo. Continue with the [instructions](https://services.github.com/on-demand/intro-to-github/explore-github-repository).
 
-    If this isn't what you were hoping to get help with, just leave another note in this issue, and a hu-man trainer will drop by within 24 hours to answer your questions!"
+    If this isn't what you were hoping to get help with, just leave another note in this issue, and a hu-man trainer will drop by within 24 hours to answer your questions!
   existingCollaboratorMessage: >
-    "Hi @${issueOwner}! I'm the friendly :robot: of the GitHub Training Team.
+    Hi @${issueOwner}! I'm the friendly :robot: of the GitHub Training Team.
 
-    I can see that you're already a collaborator. Any other issues are above my paygrade at the moment, so we'll have to wait for a pesky hu-man trainer. Not to worry though, they'll drop by within 24 hours to answer your questions!"
+    I can see that you're already a collaborator. Any other issues are above my paygrade at the moment, so we'll have to wait for a pesky hu-man trainer. Not to worry though, they'll drop by within 24 hours to answer your questions!
 
 # comment out this entire section to disable this feature
 deleteBranchReminder:
